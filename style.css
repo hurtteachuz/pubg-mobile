@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 100px;
+    font-family: "Inter", serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box {
+    background-color: yellow;
+    padding: 10px 20px;
+}
+
+.header-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-right div {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgb(34, 34, 34);
+}
+
+.sub-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url('https://s3-alpha-sig.figma.com/img/026b/441a/88dfc0194633755f033f7f553dfded55?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JvuAZXWcIlFJOhrSdOcPXf8USggPzyH7rLvnmKMTyT9l~I1pIyVl7glNWlGYCzbgbF3mNDsdrRyEYM8efBkKnd-CkyJOK~G3jR9chTN2EtGScmukiYJ0B05~r-J-u3Y5Ulvb89RfI4EGsrA80G7pdqdYsg8ENHKiMAZYiDF1N8JefvZyQDvvNYx2xYiTOoTQFIefZDEcYp9aR~2PdioZuTf1TE3WfAz89bFxXbftiPntZTAIZifIBJ~9lxFpCLfmVmnlNdUVvRz1TIyJVOn3HE8cJt8t9Dk7KBC3z6vFJLZwiQtUK0lK47h2dbuLrud1R1gbfN7mI01eRnt7xGV0Yg__');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    background: rgb(241, 169, 0);
+    padding: 20px  100px;
+    font-size: 40px;
+}
+
+.button-parent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-parent1 {
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    background-color: black;
+    padding: 20px  100px;
+    color: white;
+    font-size: 40px;
+}
+.btn3{
+    background-color: rgba(234, 255, 0, 0.301);
+    padding: 20px  100px;
+    color: white; 
+    font-size: 40px;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer-right div{
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
